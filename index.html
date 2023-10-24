@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Khatantuul Batbold's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav id="nav-wrapper">
+        <div class="owner">Khatantuul Batbold</div>
+        <div class="section-links-wrapper">
+            <ul class="links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <nav id="collapse-nav-wrapper">
+        <div class="owner">Khatantuul Batbold</div>
+        <div class="collapse-links-wrapper">
+            <div class="menu-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="collapse-links">
+                <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+                <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+            </div>
+        </div>
+    </nav>
+
+    <section id="my-profile">
+        <div class="profile-pic-wrapper">
+            <img src="./assets/personal.jpeg" alt="pic">
+        </div>
+        <div class="profile-info-wrapper">
+            <p>Hello World!</p>
+            <!-- <p>I am</p> -->
+            <h3>I'm Khatantuul Batbold</h3>
+            <p>Software Engineer from Mongolia</p>
+            <div class="links-button-wrapper">
+                <button class="btn" onclick="window.open('./assets/my-resume.pdf')">Download CV</button>
+                <button class="btn" onclick="location.href='./#contact'">Contact me</button>
+            </div>
+            <div class="socials-wrapper">
+                <img src="./assets/linkedin.png" alt="linkedin-profile" class="socials-icon" onclick="location.href='https://www.linkedin.com/in/khatnabatbold/'">
+                <img src="./assets/github.png" alt="github-profile" class="socials-icon" onclick="location.href='https://github.com/Khatantuul'">
+            </div>
+        </div>
+    </section>
+    <section id="about">
+        <div class="section-wrapper">
+            <div class="section-text-wrapper">
+                <h1>About Me</h1>
+                <img src="./assets/icons8-mongolia-48.png" alt="mongolia">
+                <p>I was born and raised in Ulaanbaatar, Mongolia. Currently, I am pursuing Master's degree in Information Systems at Northeastern University in Boston, MA and I'm excited about the prospects it holds for my future. Throughout my work experience, I demonstrated a strong drive and motivation through self-initiatives. These initiatives have delivered substantial impact, reflecting my commitment to driving positive change and achieving meaningful results.</p>
+            </div>
+            <div class="about-profile-details-wrapper">
+                <div class="details-education-wrapper">
+                    <h3> <span>&#128218;</span>Education</h3>
+                    <p>M.Sc. in Information Systems</p>
+                    <p>Northeastern University</p>
+                </div>
+                <div class="details-courses-wrapper">
+                    <h3>Coursework</h3>
+                    <p>Application Engineering</p>
+                    <p>Advanced Big Data Indexing</p>
+                    <p>Web Design and User Experience</p>
+                    <p>Data Structures and Algorithms</p>
+                    <p>Agile Software Development</p>
+                    <p>Introduction to Python for Data Science</p>
+
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+    <section id="projects">
+        <h1>My Recent Projects</h1>
+        <div class="projects-wrapper">
+            <div class="first-project-wrapper">
+                <div class="project-header">
+                    <div class="project-img-wrapper">
+                        <img src="./assets/servelogo1.jpeg" alt="serve-app">
+                    </div>
+                    <h2>Serve App</h2>
+                </div>
+                <p>Serve is a Java swing application that motivates community members & specialists to consciously build their community through volunteerism.</p>
+                <li>Senior citizen "Clients" and community volunteers apply and are vetted thoroughly by Serve's in-house Application Manager</li>
+                <li>Participating Grocery Stores and Pharmacies curate a discounted convenience product catalog
+                </li>
+                <li>Healthcare and Legal organizations set-up a catalog of specialized services and register Serve-verified physicians and lawyers to fulfill client requests</li>
+                <li>Pull system allowing volunteers to pull from request queue</li>
+                
+                <div class="project-btns-wrapper">
+                    <button
+                      class="project-btn"
+                      onclick="location.href='https://github.com/vishnuraosharma/serve-app'"
+                    >
+                      Github
+                    </button>
+                  </div>
+            </div>
+            <div class="second-project-wrapper">
+                <div class="project-header">
+                    <div class="project-img-wrapper">
+                        <img src="./assets/mydearlogo.png" alt="serve-app">
+                    </div>
+                    <!-- <h2>MyDear App</h2> -->
+                </div>
+                <p>MyDear is a full-stack application that lets parents capture and preserve their children's precious moments and milestones.</p>
+                <li>Parents start working on a digital archive by creating albums which can be viewed in different modes</li>
+                <li>Each photo carries a memory and a story or note can be added to it as well as tags for later search
+                </li>
+                <li>Achievements in childhood are reminders of the child's growth and can be added to the archive
+                </li>
+                <li>Heartfelt letters and diary entries to their children, waiting to be discovered when they come of age.</li>
+
+                <div class="project-btns-wrapper">
+                    <button
+                      class="project-btn"
+                      onclick="location.href='https://github.com/'"
+                    >
+                      Github
+                    </button>
+                    <button
+                      class="project-btn"
+                      onclick="location.href='https://github.com/'"
+                    >
+                      Live Demo
+                    </button>
+                  </div>
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <div class="contact-wrapper">
+            <div class="more-about-me-text-wrapper">
+                <h1>Contact</h1>
+                <p>I love swimming, travelling and singing. I will be glad to share about the time when I went to Northern Sweden to see Aurora Borealis.</p>
+                <div class="location-wrapper">
+                    <h3> <span>&#128205;</span>Location</h3>
+                    <p>Boston, MA</p>
+                </div>
+                <div class="email-wrapper">
+                    <h3><span>&#128238;</span>Email</h3>
+                    <p>batbold.k@northeastern.edu</p>
+                    <p>khatnabb@gmail.com</p>
+
+                </div>
+            </div>
+            <div class="little-collage-wrapper">
+                <div class="img-wrapper">
+                    <picture>
+                        <source srcSet="./assets/aurora.jpeg"  type="image/webp" />
+                        <img src="./assets/aurora.jpeg" alt="img" />
+                    </picture>
+                    <picture>
+                        <source srcSet="./assets/me-site.jpeg"  type="image/webp" />
+                        <img src="./assets/me-site.jpeg" alt="img" />
+                    </picture>
+                    <picture>
+                        <source srcSet="./assets/singing.jpeg"     type="image/webp" />
+                        <img src="./assets/singing.jpeg" alt="img" />
+                    </picture>
+                    <picture>
+                        <source srcSet="./assets/norway.jpeg"   type="image/webp" />
+                        <img src="./assets/norway.jpeg" alt="img" />
+                    </picture>
+                </div>
+            </div>
+        </div>
+        <footer class="footer-section">
+            <div class="footer-content">
+                <div class="catchphrase-wrapper">
+                    <span>Let's connect and be in touch!</span>
+                </div>
+                <div class="brand-wrapper">
+                    <span>&#169;</span>
+                    <p>Khatantuul Batbold</p>
+                </div>
+            </div>
+        </footer>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
