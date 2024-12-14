@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Newspaper Effect</title>
+  <style>
+    body {
+      font-family: Georgia, serif; /* Classic serif font */
+      line-height: 1.6; /* Improve readability */
+      margin: 0;
+      padding: 20px;
+      background-color: #f5f5f5; /* Light gray background for the paper feel */
+    }
+
+    .newspaper {
+      min-width: 800px;
+      margin: 0 auto;
+      padding: 20px;
+      background-color: #ffffff; /* White background for the article */
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+      border: 1px solid #ccc; /* Slight border for an authentic look */
+      text-align: justify; /* Justify text for a newspaper style */
+    }
+
+    .newspaper h1 {
+      font-size: 2rem;
+      font-weight: bold;
+      margin-bottom: 10px;
+      text-align: center;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+    }
+
+    .newspaper h2 {
+      font-size: 1.5rem;
+      font-weight: bold;
+      margin: 20px 0 10px;
+    }
+
+    .newspaper p {
+      margin: 10px 0;
+    }
+
+    .newspaper .byline {
+      font-size: 0.9rem;
+      font-style: italic;
+      margin-bottom: 20px;
+    }
+
+    /* Newspaper Columns */
+    .columns {
+      column-count: 2; /* Divide text into 2 columns */
+      column-gap: 30px; /* Add space between columns */
+    }
+
+    .columns p {
+      /* break-inside: avoid; Prevent paragraph breaks across columns */
+    }
+  </style>
+</head>
+<body>
+  <div class="newspaper">
+    <h1>Boston Times</h1>
+    <p class="byline">Editor's Note - December 10, 2024</p>
+    <div class="columns">
+        <div class="pro-img">
+            <img src="./assets/personal.jpeg" alt="pic" width="350px">
+            <p>Lie Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio quod dolore porro, non pariatur a cupiditate aliquam distinctio dignissimos natus iusto aspernatur eveniet. Minus labore rem beatae et optio illo nam recusandae fugiat deleniti, vero nobis unde similique saepe iusto!</p>
+        </div>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent sit amet est sed metus interdum tincidunt. Donec accumsan ultricies sapien, at varius lectus fermentum quis. Suspendisse nec libero non arcu fringilla pellentesque. Integer facilisis venenatis turpis, in dapibus dolor tristique a.</p>
+      <p>Aliquam erat volutpat. Duis tincidunt sapien id purus viverra fringilla. Vivamus auctor velit eget quam aliquet, ut egestas justo tincidunt. Suspendisse potenti. Nam vulputate, justo vitae vulputate euismod, elit ligula sollicitudin nulla, quis malesuada ligula augue ac augue.</p>
+      <p>Nullam vel tincidunt ipsum. Proin nec tellus ut elit auctor efficitur. Nam tempor vestibulum mauris non auctor. In vitae mi vel nisl bibendum vehicula. Vestibulum varius nulla ac quam fermentum, id tincidunt dolor dictum.</p>
+      <p>Curabitur sit amet malesuada ligula. Proin sed dolor lectus. Aliquam eget vehicula justo. Maecenas blandit, purus nec cursus fermentum, velit enim pellentesque lacus, eu varius lorem lorem et quam. Cras sollicitudin augue non dui eleifend, quis vulputate enim vestibulum.</p>
+    </div>
+  </div>
+</body>
+</html>
