@@ -293,9 +293,9 @@ section{
 .about-profile-details-wrapper{
     display: flex;
     flex-direction: column;
+    justify-content: center;
     gap: 20px;
     height: 60%;
-
 }
 
 .section-text-wrapper{
@@ -328,6 +328,7 @@ section{
 .details-courses-wrapper p,
 .details-education-wrapper p{
     font-size: 14px;
+    line-height: 24px;
     color: rgb(85,85,85);
 }
 
@@ -517,4 +518,9 @@ section{
 
 .tech-stack{
     text-align: center;
+}
+
+.about-section-header-wrapper{
+    display: flex;
+    align-items: center;
 }
